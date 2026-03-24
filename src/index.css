@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 28, 25, 23; /* stone-900 */
+  --background-rgb: 250, 250, 249; /* stone-50 */
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(var(--background-rgb));
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.btn-primary {
+  @apply bg-rose-600 text-white hover:bg-rose-700 transition-colors duration-200 shadow-sm hover:shadow;
+}
+
+.input-field {
+  @apply block w-full rounded-md border-stone-300 shadow-sm focus:border-rose-500 focus:ring-rose-500 sm:text-sm;
+}
+
+/* Step Builder Animations */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse-soft {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.animate-slide-in {
+  animation: slideIn 0.3s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.2s ease-out forwards;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.2s ease-out forwards;
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2s ease-in-out infinite;
+}
+
+/* Step timeline connector animation */
+@keyframes drawLine {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100%;
+  }
+}
+
+.step-connector {
+  animation: drawLine 0.5s ease-out forwards;
+}
+
+/* Hover effects for action buttons */
+.action-button {
+  @apply transition-all duration-200 ease-out;
+}
+
+.action-button:hover {
+  @apply shadow-lg -translate-y-0.5;
+}
+
+/* Smooth expand/collapse for ingredient panels */
+.ingredient-panel {
+  @apply transition-all duration-300 ease-out overflow-hidden;
+}
