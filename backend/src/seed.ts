@@ -53,7 +53,7 @@ async function main() {
       cuisine: 'Italian',
       prepTime: 25,
       price: 12.99,
-      imageUrl: 'https://images.unsplash.com/photo-1612874742237-982867143824'
+      imageUrl: 'https://images.unsplash.com/photo-1612874742237-982867143824?auto=format&fit=crop&w=800&q=80'
     },
     {
       title: 'Sushi Platter',
@@ -72,7 +72,7 @@ async function main() {
       cuisine: 'Japanese',
       prepTime: 45,
       price: 24.50,
-      imageUrl: 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c'
+      imageUrl: 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=800&q=80'
     },
     {
       title: 'Tacos al Pastor',
@@ -92,7 +92,7 @@ async function main() {
       cuisine: 'Mexican',
       prepTime: 30,
       price: 3.50,
-      imageUrl: 'https://images.unsplash.com/photo-1551504734-5ee1c4a1479b'
+      imageUrl: 'https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=800&q=80'
     },
     {
       title: 'Pad Thai',
@@ -112,7 +112,7 @@ async function main() {
       cuisine: 'Thai',
       prepTime: 25,
       price: 14.99,
-      imageUrl: 'https://images.unsplash.com/photo-1559314809-0d155014e29e'
+      imageUrl: 'https://images.unsplash.com/photo-1559314809-0d155014e29e?auto=format&fit=crop&w=800&q=80'
     },
     {
       title: 'Butter Chicken',
@@ -133,7 +133,7 @@ async function main() {
       cuisine: 'Indian',
       prepTime: 40,
       price: 16.99,
-      imageUrl: 'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398'
+      imageUrl: 'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=800&q=80'
     },
     {
       title: 'Croissant',
@@ -155,7 +155,7 @@ async function main() {
       cuisine: 'French',
       prepTime: 180,
       price: 4.50,
-      imageUrl: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a'
+      imageUrl: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80'
     },
     {
       title: 'Greek Moussaka',
@@ -178,7 +178,7 @@ async function main() {
       cuisine: 'Greek',
       prepTime: 90,
       price: 18.99,
-      imageUrl: 'https://images.unsplash.com/photo-1574484284002-952d92456975'
+      imageUrl: 'https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=800&q=80'
     },
     {
       title: 'Beef Pho',
@@ -198,7 +198,7 @@ async function main() {
       cuisine: 'Vietnamese',
       prepTime: 240,
       price: 15.99,
-      imageUrl: 'https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43'
+      imageUrl: 'https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?auto=format&fit=crop&w=800&q=80'
     }
   ];
 
