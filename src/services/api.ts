@@ -1,7 +1,7 @@
 import type { User, Recipe, OrderType as Order, OrderStatus } from '../types';
 
-const API_BASE_URL = 'http://localhost:3001/api';
-const UPLOADS_BASE_URL = 'http://localhost:3001';
+const API_BASE_URL = (import.meta.env.VITE_API_URL || 'http://localhost:3001') + '/api';
+const UPLOADS_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
 
 // Simple cache with TTL
 interface CacheEntry<T> {
