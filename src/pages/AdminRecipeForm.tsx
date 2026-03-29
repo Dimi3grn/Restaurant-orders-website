@@ -149,7 +149,7 @@ export const AdminRecipeForm: React.FC = () => {
         ? formData.steps?.map((s, i) => `${i + 1}. ${s.description}`).join('\n') || ''
         : formData.instructions,
       // If using text mode, clear steps
-      steps: instructionMode === 'visual' ? formData.steps : null,
+      steps: instructionMode === 'visual' ? formData.steps : undefined,
     };
 
     try {
