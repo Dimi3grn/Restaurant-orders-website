@@ -53,7 +53,7 @@ async function main() {
       cuisine: 'Italian',
       prepTime: 25,
       price: 12.99,
-      imageUrl: 'https://images.unsplash.com/photo-1612874742237-982867143824?auto=format&fit=crop&w=800&q=80'
+      imageUrl: 'https://images.unsplash.com/photo-1588013273468-315fd88ea34c?auto=format&fit=crop&w=800&q=80'
     },
     {
       title: 'Sushi Platter',
